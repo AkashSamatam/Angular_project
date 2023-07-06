@@ -12,6 +12,6 @@ export class BodyComponent implements OnInit {
     
   }
   onclick(){
-    this.rote.navigateByUrl('')
+    this.rote.navigateByUrl('/undermaintenance')
     }
 }

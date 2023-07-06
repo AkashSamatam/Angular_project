@@ -12,7 +12,7 @@ export class BannerComponent implements OnInit{
   ngOnInit(): void {
     
   }
-  Onclick(){
-    this.route.navigateByUrl('login')
+  OrderNow(){
+    this.route.navigateByUrl('/login')
   }
 }

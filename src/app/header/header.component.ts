@@ -12,7 +12,7 @@ export class HeaderComponent {
   ngOnInit(): void {
   }
   onclick(){
-  this.rote.navigateByUrl('')
+  this.rote.navigateByUrl('/products')
   }
 
 }

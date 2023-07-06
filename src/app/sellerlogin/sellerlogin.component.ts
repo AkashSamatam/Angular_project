@@ -24,7 +24,7 @@ export class SellerloginComponent implements OnInit{
   }
     onlogin(){
       if(this.loginuser.valid){
-        this.route.navigateByUrl('');
+        this.route.navigateByUrl('/undermaintenance');
          }
          else
          {
